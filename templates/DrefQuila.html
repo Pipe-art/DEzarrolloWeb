@@ -1,0 +1,221 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Artistas DawgRecord | Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Scripts -->
+    <script src="/static/js/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/35db202371.js"></script>
+    <script src="/static/js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="/static/js/jquery.flexslider.js"></script>
+	<script src="/static/js/flexslider.js"></script>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="/static/css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+
+    <!-- Ir arriba -->
+    <div class="go-top">
+        <span><i class="fas fa-angle-up"></i></span>
+    </div>
+
+
+    <!-- Menu de navegacion -->
+     <header id="header">
+      
+      <nav class="menu">
+       
+        <div class="logo-box">
+            <h1><a href="#">Artistas DawgRecord</a></h1>
+            <span class="btn-menu"><i class="fas fa-bars"></i></span>
+        </div>
+
+        <div class="list-container">
+                <ul class="lists">
+                    <li><a href="http://127.0.0.1:8000/" class="activo">Inicio</a></li>
+                    <li><a href="http://127.0.0.1:8000/servicios/">Servicios</a></li>
+                    
+                    <li><a href="">Logout</a></li>
+                </ul>
+            </div>
+
+      </nav>
+
+      <!-- IMG Header -->
+      <div class="flexslider">
+		
+		
+		<div class="linea"></div>
+		<ul class="slides">
+			<li>
+				<img src="/static/img/drefportada.jpg" alt="">
+				<section class="flex-caption">
+					
+				</section>
+			</li>
+			<li>
+				<img src="/static/img/img_dref2.jpg" alt="">
+				<section class="flex-caption">
+					
+				</section>
+			</li>
+			<li>
+				<img src="/static/img/img_dref3.jpeg" alt="">
+				<section class="flex-caption">
+					
+				</section>
+			</li>
+			
+		</ul>
+	</div>
+
+     </header>
+
+    <!-- Menu de navegacion -->
+
+  <main>
+
+    <!-- Acerca de nosotros -->
+    <section class="acerca-de">
+
+        <div class="info-container">
+            <div class="project-title">
+                <h2>Proximas Presentaciones</h2>
+                <hr>
+            </div>
+            <br>
+            <div class="container-event">
+                <p> 
+                    <img src="/static/img/chica.jpeg" align="left"> Drefquila en Puebla
+                    <p><i class="fas fa-map-marked-alt"></i> Beat 803</p>
+                    <p><i class="far fa-clock"></i> 6 Dic. 2019 20:00 Hrs</p>
+                    <a href="https://www.wegow.com/es-es/conciertos/drefquila-puebla?fbclid=IwAR3zAonaBPDSu6MPHS4YVmN3sn51KpREXaEZbgQxvfDqh1s6uFSpu5yUlgY"  class="buttonventa venta white  radius">
+                   
+                            Ver Mas!</a>
+                </p>
+            </div>
+            <br>
+            <div class="container-event">
+                <p> 
+                    <img src="/static/img/chica.jpeg" align="left"> Drefquila en Monterrey
+                    <p><i class="fas fa-map-marked-alt"></i> Nodriza Estudio</p>
+                    <p><i class="far fa-clock"></i> 7 Dic. 2019 20:00 Hrs</p>
+                    <a href="https://www.wegow.com/es-es/conciertos/drefquila-monterrey?fbclid=IwAR3iU7em3E6pLUZ_NVH2HsESxrItoFiX9ZAnBlcxjGiRLJyukcmYoMcPgTQ"  class="buttonventa venta white  radius">
+                   
+                            Ver Mas!</a>
+                </p>
+            </div>
+            <br>
+            <div class="container-event">
+                <p> 
+                    <img src="/static/img/chica.jpeg" align="left"> Drefquila en Chiapas
+                    <p><i class="fas fa-map-marked-alt"></i> Salon La Carreta del meque</p>
+                    <p><i class="far fa-clock"></i> 8 Dic. 2019 19:00 Hrs</p>
+                    <a href="https://www.wegow.com/es-mx/conciertos/drefquila-chiapas?fbclid=IwAR1Q5jCZGz1fu1ZotX2WlZ7ljI7pMETw1PrD4VDmjSxgPxI4dg1e9Rkga24"  class="buttonventa venta white  radius">
+                   
+                            Ver Mas!</a>
+                </p>
+            </div>
+            <br>
+            
+         <div class="about-gallery">
+             <img src="/static/img/drefvivo1.jpg" alt="">
+             <img src="/static/img/drefvivo2.jpg" alt="">
+             <img src="/static/img/drefvivo3.jpg" alt="">
+         </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- Botones Redes Sociales -->
+    
+    <a href="https://www.instagram.com/dref_kun"  class="button white peq radius">
+        <span>
+            <i class="fab fa-instagram"></i></span>
+            Instagram</a>
+
+    <a href="https://soundcloud.com/drefquila" class="button white peq radius">
+            <span>
+                <i class="fab fa-soundcloud"></i></span>
+               SoundCloud</a>
+    <a href="https://www.youtube.com/channel/UCeLHszkByNZtPKcaVXOCOQQ#" class="button white peq radius">
+            <span>
+                <i class="fab fa-youtube"></i></span>
+                Youtube</a>
+    
+
+    <!-- Botones Redes Sociales -->
+    <!-- Nuestros Proyectos -->
+    <section class="our-projectsVivo">
+        <div class="skew-arriba"></div>
+     
+        <div class="deg-background"></div>
+
+        <div class="ejeZproject">
+           <div class="container-project">
+
+              <div class="project-title">
+                  <h2>Presentaciones en VIVO</h2>
+                  <hr>
+              </div>
+
+              <div class="project-mp4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7mwQRNbynXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Rl9r7XRiyPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+              </div>
+              
+           </div> 
+        </div>
+
+        
+
+    </section>
+
+    
+
+</main>
+<footer class="footer">
+        <div class="skew-arriba"></div>
+       
+           <div class="deg-footer"></div>
+       
+           <div class="ejeZfooter">
+             <div class="footer-content">
+             <div class="footer-title">
+                 <h2>Informacion Personal</h2>
+                 <hr>
+             </div>
+       
+             <div class="Personal-content">
+              <h2>Claudio Ignacio Montaño Ceura (Coquimbo, 13 de noviembre de 1997) más conocido como DrefQuila, es un cantante, productor, compositor y ex-freestyler chileno. Conocido por sus sencillos A Fuego, Ella Busca, Olvida el miedo, Que será, Lo mio y Sin culpa</h2>
+              
+             </div>
+       
+             <div class="footer-text">
+                 
+                 <p>&copy; Artistas DawgRecord - 2019 | Todos los derechos reservados </p>
+                
+             </div>
+       
+             </div>
+           </div>
+       
+       </footer>
+           
+   
+</body>
+</html>
